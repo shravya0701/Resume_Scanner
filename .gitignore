@@ -1,0 +1,11 @@
+# Node modules
+frontend/node_modules
+backend/__pycache__
+backend/.pytest_cache
+
+# Python venv
+.venv
+.env
+
+# Build outputs
+frontend/dist
