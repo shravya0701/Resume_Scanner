@@ -36,7 +36,7 @@ const UploadForm: React.FC = () => {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/score",
+        "https://resume-scanner-d36c.onrender.com/score",
         formData,
         {
           headers: { "Content-Type": "multipart/form-data" },
